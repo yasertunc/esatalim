@@ -1,0 +1,17 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.esatalim.com/sitemap.xml
+
+# Disallow admin and private routes
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /create-product
+
+# Allow search engines to crawl public pages
+Allow: /products
+Allow: /login
+Allow: /register
+Allow: /favorites

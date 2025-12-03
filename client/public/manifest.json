@@ -1,0 +1,56 @@
+{
+  "short_name": "esatalim",
+  "name": "esatalim.com - Online Alışveriş Platformu",
+  "description": "Türkiye'nin en güvenilir ikinci el ve sıfır ürün alışveriş platformu",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#f9fafb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "tr",
+  "categories": ["shopping", "marketplace"],
+  "shortcuts": [
+    {
+      "name": "Ürünler",
+      "short_name": "Ürünler",
+      "description": "Tüm ürünleri görüntüle",
+      "url": "/products",
+      "icons": [{ "src": "favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "İlan Ver",
+      "short_name": "İlan Ver",
+      "description": "Yeni ilan oluştur",
+      "url": "/create-product",
+      "icons": [{ "src": "favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Favorilerim",
+      "short_name": "Favoriler",
+      "description": "Favori ürünlerim",
+      "url": "/favorites",
+      "icons": [{ "src": "favicon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
